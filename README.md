@@ -1,2 +1,2 @@
-# SimplationWANGBlogs
+# Simplation's Blogs
 Simplation Blogs
