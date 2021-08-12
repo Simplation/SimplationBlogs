@@ -11,7 +11,7 @@ Info.plist file.新特性要求App内访问网络请求，要采用 HTTPS 协议
 
 ​				2>在 NSAppTransportSecurity 下添加 Boolean 类型的 NSAllowsArbitraryLoads 类型,值设为 YES;
 
-![配置 plist 文件](/Source/配置plist文件.jpg)
+![配置 plist 文件](https://github.com/Simplation/SimplationBlogs/blob/master/source/ios_source/%E9%85%8D%E7%BD%AEplist%E6%96%87%E4%BB%B6.jpg)
 
 ##### 2. Declaration of sysctlbyname' must be imported from module 'Darwin.sys.sysctl' before it is required
 
@@ -19,7 +19,7 @@ Info.plist file.新特性要求App内访问网络请求，要采用 HTTPS 协议
 
 ##### 3. ERROR ITMS-90717: “Invalid App Store Icon. The App Store Icon in the asset catalog in ‘*.app’ can’t be transparent nor contain an alpha channel.”
 
-![错误截图](/Source/错误截图.jpg)
+![错误截图](https://github.com/Simplation/SimplationBlogs/blob/master/source/ios_source/%E9%94%99%E8%AF%AF%E6%88%AA%E5%9B%BE.jpg)
 
 ***解决办法***：上传 AppStore 出现的图片问题，因为图片含有 alpha 通道或者透明度，直接打开图片，重新导出，去掉勾选的 Alpha 复选框，重新打包上传。
 
@@ -27,7 +27,7 @@ Info.plist file.新特性要求App内访问网络请求，要采用 HTTPS 协议
 
 ***解决办法***：上传 AppStore 版本重复问题，存在一个版本号为 1.0 的二进制文件，需要重新修改 version 和 build，建议两个保持一致。然后再进行上传操作 
 
-![修改版本号](/Source/修改版本号.jpg)
+![修改版本号](https://github.com/Simplation/SimplationBlogs/blob/master/source/ios_source/%E4%BF%AE%E6%94%B9%E7%89%88%E6%9C%AC%E5%8F%B7.jpg)
 
 ##### 5. This app has crashed because it attempted to access privacy-sensitive data without a usage description.  The app's Info.plist must contain an NSPhotoLibraryAddUsageDescription key with a string value explaining to the user how the app uses this data
 
