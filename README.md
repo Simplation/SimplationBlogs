@@ -2,6 +2,8 @@
 
 *Simplation Blogs*
 
+<img src="https://skillicons.dev/icons?i=kotlin,java,github,python,dart&theme=dark"/>
+
 - [android](https://github.com/Simplation/SimplationBlogs/tree/master/android)
 - [kotlin](https://github.com/Simplation/SimplationBlogs/tree/master/kotlin)
 - [java](https://github.com/Simplation/SimplationBlogs/tree/master/java)
